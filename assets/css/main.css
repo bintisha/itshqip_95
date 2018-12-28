@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'PX';
+    src:url('../font/px_sans_nouveaux.ttf');
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: PX;
+}
+
+*:focus{
+    outline: none;
+}
+
+body {
+    font-family:PX;
+    background: #243e8b;
+    font-size: 10px;
+    position: relative;
+    height: 100vh;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #c0c0c0;
+    border: 1px solid white;
+    position: absolute;
+    bottom:0px;
+    right: 0;
+    left: 0;
+}
+
+.start {
+    width: 90px;
+    margin: 2px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.start:hover {
+    cursor: pointer;
+}
+.start p {
+    margin: 6px 10px;
+}
+
+.time {
+    padding: 5px;
+    margin: 2px;
+}
+
+.skin {
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 2px solid #838383;
+    border-left: 2px solid #838383;
+}
+
+.internet {
+    padding: 5px;
+    color: white;
+}
+
+.internet button {
+    background: #243e8b;
+    background-image: url(../img/Icon_14.ico);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.internet button:focus{
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.window {
+    position: relative;
+    width: 600px;
+    padding: 3px;
+    border: 1px solid white;
+    background: #c3c7ca;
+    margin: -45px auto;
+    display: none;
+}
+
+.window img {
+    width: 20px;
+    margin: 2px;
+}
+
+.window .header p {
+    margin-left: 5px;
+}
+
+.window .header {
+    display: flex;
+    justify-content: space-between;
+    background: #2a3493;
+    border: 1px solid black;
+    color: white;
+    height: 25px;
+}
+
+.item {
+    display: flex;
+}
+
+.settings {
+    display: flex;
+}
+
+.settings p {
+    margin: 2px 0 2px 9px;
+}
+.imp {
+    text-decoration: underline;
+}
+
+.loading{
+    display: flex;
+}
+
+.loading input{
+    height: 20px;
+    width: 100%;
+    font-size: 10px;
+}
+
+.anime{
+    position: absolute;
+    width: 0px;
+    height: 20px;
+    left: 73px;
+    margin-top: 2px;
+    margin-left: 1px;
+    background: #243e8b9c;
+}
+
+.loading form {
+    width: 550px;
+    margin: 0 5px;
+}
+
+.loading p {
+    padding:0 3px;
+}
+
+.content {
+    background: white;
+    padding: 10px;
+    font-weight: 100;
+    margin: 4px 0 4px 2px;
+    box-shadow: -1px -1px 3px black;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 400px;
+    overflow: scroll;
+}
+
+.google {
+    height: 90%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.google h1 {
+    font-size: 5em;
+}
+.blue{
+    color: #4285f4;
+}
+.red{
+    color: #ea4335;
+}
+.yellow{
+    color: #fbbc05;
+}
+.green{
+    color: #34a853;
+}
+
+.entry input{
+    width: 350px;
+}
+.entry {
+    margin: 20px;
+}
+
+.search button{
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.search button:hover{
+    cursor: pointer;
+}
+
+@keyframes load  {
+    0% {width: 0px;}
+    20% {width: 40px;}
+    50% {width: 200px;}
+    100%{width: 526px;}
+}
+
+.internettab {
+    margin-left: 10px;
+    width: 100px;
+    display: none;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.internettab img{
+    height: 25px;
+    width: 25px;
+}
+
+.searchBox {
+    display: flex;
+}
+
+.searchBox h3 {
+    margin: 0;
+}
+
+.searchBox input {
+    height: 17px;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 2px;
+    font-size: 10px;
+}
+.res {
+    margin-top: 20px;
+}
+.topSearch {
+    margin-top: 10px;
+}
+
+.didUmean {
+    margin-top: 10px; 
+}
+
+.googleSearch {
+    display: none;
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+    background: #7d3f3d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: auto;
+}
+
+.loginpage {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.loginpage a {
+    margin-left: 5px;
+}
+
+.warning {
+    padding: 10px;
+    color: rgb(134, 82, 83);
+    background: rgb(255, 208, 208);
+    margin-top: 10px;
+}
+
+.head{
+    background: #da4848;
+    color: white;
+}
+
+.teamt ul li {
+    border-bottom: 1px solid rgb(99, 99, 99);
+    margin-top: 10px;
+}
+
+.post h4 {
+    margin-top: 10px;
+}
+
+.border {
+    border-bottom: 2px dotted black;
+}
